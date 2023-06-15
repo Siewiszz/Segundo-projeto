@@ -1,9 +1,11 @@
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #c0c0c0;
-    --botao-azul: #167bf7;
+    --botao-verde-escuro: #034e07;
     --cor-de-fundo: #00030C;
-    --botao-vermelho: #e50c0c;
+    --botao-verde-medio: #07a00f;
+    --fonte-verde: #034e07;
+
 
 
 }
@@ -19,7 +21,7 @@ body {
 }
 
 .principal {
-    background-image: url(verduras.jpeg);
+    background-image: url(principal.jpg);
     background-repeat: no-repeat;
 
 
@@ -32,8 +34,8 @@ body {
 }
 
 .container__botao{
-    background-color: var(--botao-azul);
-    border-radius: 5px;
+    background-color: var(--botao-verde-escuro);
+    border-radius: 10px;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
@@ -41,16 +43,17 @@ body {
 }
 .botao_secundario{
     background-color: transparent;
+    border-radius: 10px;
     border: 2px solid var(--branco-principal);
 
 }
 .titulo{
     text-align: center;
-    color: var(--branco-principal);
+    color: var(--fonte-verde);
 }
 .container__botao-1{
-    background-color: var(--botao-vermelho);
-    border-radius: 5px;
+    background-color: var(--botao-verde-medio);
+    border-radius: 10px;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
